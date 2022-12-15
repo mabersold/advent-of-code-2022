@@ -10,17 +10,16 @@ class Day1 : DailyExercise() {
     private val priorityQueue = PriorityQueue<Int>(Collections.reverseOrder())
 
     override fun runExercise() {
+        prepareData()
         println("The most calories from a single elf is ${part1()}")
         println("The most calories from the top three elves is ${part2()}")
     }
 
     private fun part1(): Int {
-        prepareData()
         return priorityQueue.peek()
     }
 
     private fun part2(): Int {
-        prepareData()
         return priorityQueue.remove() + priorityQueue.remove() + priorityQueue.remove()
     }
 
