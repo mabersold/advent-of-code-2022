@@ -1,11 +1,7 @@
-import exercises.Day1
-import exercises.Day2
-import exercises.Day3
-import exercises.Day4
-import exercises.Day5
+import exercises.*
 
 fun main() {
-    val exercises = listOf(Day1(), Day2(), Day3(), Day4(), Day5())
+    val exercises = listOf(Day1(), Day2(), Day3(), Day4(), Day5(), Day6())
 
     exercises.forEach { exercise ->
         exercise.run()
