@@ -37,7 +37,7 @@ class Day6: DailyExercise() {
         }
         return charFrequencyMap
     }
-    
+
     private fun HashMap<Char, Int>.shiftWindow(charToRemove: Char, charToAdd: Char) {
         this.dec(charToRemove)
         this.inc(charToAdd)
