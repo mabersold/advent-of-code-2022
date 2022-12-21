@@ -15,3 +15,5 @@
 [Day 6](https://github.com/mabersold/advent-of-code-2022/blob/main/src/main/kotlin/exercises/Day6.kt)
 
 [Day 7](https://github.com/mabersold/advent-of-code-2022/blob/main/src/main/kotlin/exercises/Day7.kt)
+
+[Day 8](https://github.com/mabersold/advent-of-code-2022/blob/main/src/main/kotlin/exercises/Day8.kt)

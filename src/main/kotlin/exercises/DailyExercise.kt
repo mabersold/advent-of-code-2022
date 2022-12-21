@@ -20,4 +20,8 @@ abstract class DailyExercise {
     protected fun getInput(filename: String): List<String> = File(filename).readLines()
 
     protected fun getInputAsString(filename: String) = File(filename).readText()
+
+    protected fun getInputAsGrid(filename: String) = getInput(filename).map { it.asIntList() }
+
+    private fun String.asIntList() = this.map { c -> c.digitToInt() }
 }
